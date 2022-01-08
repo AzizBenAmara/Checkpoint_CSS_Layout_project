@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color : #747474;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* header */
+a {
+    color: #747474;
+    text-decoration : none;
+    padding: 7px;
+}
+.active {
+    color:#00ccb1;
+}
+.docplanner-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+/* section 1 : introduction */
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin: 20px 0px;
+}
+.introduction-title {
+    color: #00ccb1;
+}
+.introduction-text {
+    display: flex;
+    padding: 30px;
+}
+.introduction-paragraph {
+    margin: 20px;
+}
+
+/* section 2 : les 3 blocs */
+.services {
+    display: flex;
+    margin: 50px;
+    margin-top: 10px;
+}
+.service-card {
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+}
+.service-card-patients {
+    background-color: #00ccb1;
+}
+.service-card-doctors {
+    background-color: #3e82de;
+}
+.services :hover {
+    opacity: 0,9;
+}
+.service-card-clinics {
+    background-color: #1b2734;
+}
+.Select-country {
+    background-color: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.Choose-country {
+    height: 50px;
+    margin-top: 10px;
+}
+
+/* section 3 : global company */
+.global-company {
+    display: flex;
+    align-items: center;
+    margin-top: -70px;
+}
+.titre-global-company {
+    font-size: 25px;
+    padding-left: 70px;
+    color: #00ccb1;
+}
+.logos {
+    margin: 50px;
+}
+
+/* section 4 : world biggest */
+.world-biggest-platform {
+    background-color: #dbf6f6;
+    display: flex;
+    height: 730px;
+}
+.world-biggest-title{
+    color: #00ccb1;
+}
+.world-biggest-2 {
+    padding: 20px;
+    margin: 30px;
+}
+.bloc-droite {
+    display: flex;
+    margin: 20px;
+    margin-right: 50px;
+}
+.bloc-gauche {
+    margin: 50px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.bloc-1 {
+    background-color: white;
+    border-radius: 15px;
+    width: 230px;
+    height: 270px;  text-align: center;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgb(226, 226, 226)
+}
+.bloc-2 {
+    background-color: white;
+    border-radius: 15px;
+    width: 230px;
+    height: 270px;  text-align: center;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgb(226, 226, 226)
+}
+.bloc-3 {
+    background-color: white;
+    border-radius: 15px;
+    width: 230px;
+    height: 270px;  text-align: center;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgb(226, 226, 226)
+}
+.bloc-4 {
+    background-color: white;
+    border-radius: 15px;
+    width: 230px;
+    height: 270px;  text-align: center;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgb(226, 226, 226)
+}
+
+/* Section 5 : Improve the lives of millions */
+.improve-the-lives {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    text-align: center;
+    padding: 80px;
+}
+.improve-title {
+    font-size: 35px;
+    color: #00ccb1;
+}
+/* section 6 : achat */
+.partie-achat {
+    display: flex;
+    align-items: center;
+}
+.ligne1 {
+    display: flex;
+    padding: 50px;
+}
+.Fenetre-1 {
+    padding: 10px;
+}
+
+/* section 7 : see opening */
+.see-opening {
+    color: #00ccb1;
+    margin-left: 105px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: solid 1px
+
+}
+.all-current {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin: 50px;
+    font-size: 30px;
+}
+.see-all-current {
+    height: 40px;
+    color: #00ccb1;
+    border-color: #00ccb1;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    font-size: 13px;
+    padding: 25px;
+}
